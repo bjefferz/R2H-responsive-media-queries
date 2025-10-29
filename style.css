@@ -1,60 +1,55 @@
-body{
-    background-color: rgb(77, 76, 76)
+body {
+  background-color: rgb(57, 126, 28);
 }
-div{
-    width: 100%;
-    background-color: red;
-    height: 100px;
+div {
+  width: 100%;
+  background-color: red;
+  height: 100px;
 }
-ul{
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
+ul {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
 }
-ul li{
-    list-style: none;
+ul li {
+  list-style: none;
 }
 
-#red{
+#red {
+  color: red;
+  font-size: 60px;
+}
+#blue {
+  color: blue;
+  font-size: 16px;
+}
+#green {
+  color: rgb(16, 61, 10);
+  font-size: 16px;
+}
+#yellow {
+  color: yellow;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 500px) {
+  div {
+    background-color: blue;
+  }
+  #red {
     color: red;
-    font-size: 60px;
-}
-#blue{
+    font-size: 16px;
+  }
+  #blue {
     color: blue;
-    font-size: 16px
-}
-#green{
-    color: green;
-    font-size: 16px
-}
-#yellow{
+    font-size: 60px;
+  }
+  #green {
+    color: rgb(121, 160, 23);
+    font-size: 16px;
+  }
+  #yellow {
     color: yellow;
-    font-size: 16px
+    font-size: 16px;
+  }
 }
-
-@media screen and (max-width:1500px){
-    div{
-        background-color: blue;
-    }
-    #red{
-        color: red;
-        font-size: 16px;
-    }
-    #blue{
-        color: blue;
-        font-size: 60px;
-    }
-    #green{
-        color: green;
-        font-size: 16px;
-    }
-    #yellow{
-        color: yellow;
-        font-size: 16px;
-    }
-}
-
-
-
-
-
