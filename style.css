@@ -55,9 +55,10 @@ ul li {
 }
 
 @media screen and (min-width: 300px) {
-  #green {
+  #red {
     font-size: 110px;
   }
+
   ul {
     display: flex;
     flex-direction: column;
@@ -65,9 +66,10 @@ ul li {
 }
 
 @media screen and (min-width: 100px) {
-  #yellow {
+  #red {
     font-size: 150px;
   }
+
   ul {
     display: flex;
     flex-direction: column-reverse;
